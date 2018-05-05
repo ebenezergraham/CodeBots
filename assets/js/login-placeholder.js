@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
-	
-	$(".form-username").val("Username...");
+
+	$(".form-username").val("Email Address...");
 	$(".form-password").val("Password...");
-	
+
 });
