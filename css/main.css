@@ -2,3 +2,12 @@ body {
     font-family: 'Open Sans';font-size: 20px;
     padding-top: 50px;
 }
+
+.jumbotron {
+	height: 450px;
+	align-items: center;
+}
+
+#page-content-body {
+	padding: 0px 100px;
+}
