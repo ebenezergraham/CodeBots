@@ -12,6 +12,7 @@ $getProduct = "SELECT * FROM product_categories";
 $setProduct = "INSERT INTO product_categories VALUES ('1','Stones','20','4','images/test.jpg')";
 // get products
 $result = mysqli_query($con,$getProduct);
+echo "this is result";
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
@@ -22,5 +23,5 @@ if ($result->num_rows > 0) {
     echo "Miners are not offering any products now!";
 }
 mysqli_query($con, $setProduct);
-$con->close();
+//$con->close();
 ?>
