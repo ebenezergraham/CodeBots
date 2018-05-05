@@ -23,6 +23,7 @@
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
+          <form method="post">
             <ul class="sidebar-nav">
 <!--                 <li class="sidebar-brand"><h3>Products Wanted</h3></li> -->
                 <p>This is a list of the products we would like to trade and their priority values. Select what you can offer to earn shopping points and shop</p>
@@ -33,11 +34,14 @@
                     echo hello.$dbname;
                 ?>
               </h4></li>
+
+                getProductsWanted()
                 <li class="products_wanted_group" href="#"><h4>Builders</h4></li>
                 <li class="products_wanted_group" href="#"><h4>Healers</h4></li>
                 <li class="products_wanted_group" href="#"><h4>Hunters</h4></li>
                 <li class="products_wanted_group" href="#"><h4>Fisherman</h4></li>
             </ul>
+          </form>
         </div>
         <!-- /#sidebar-wrapper -->
 
@@ -61,7 +65,7 @@
             <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h2 class="display-3">Fluid jumbotron</h2>
-                <p class="lcead"><?getProducts()?> This is a modified jumbotron that occupies the entire horizontal space of its parent.
+                <p class="lcead"><?php include 'php/functions.php'; getProducts();?> This is a modified jumbotron that occupies the entire horizontal space of its parent.
                 This is a modified jumbotron that occupies the entire horizontal space of its parent.
             This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
               </div>
