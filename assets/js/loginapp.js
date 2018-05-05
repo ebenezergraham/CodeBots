@@ -13,15 +13,57 @@
   //Get DOM Elements
   const txtEmail = document.querySelector("#form-username");
   const txtPassword = document.querySelector("#form-password");
-  const btnSignin = document.querySelector("#signin");
+  const btnSignin = document.querySelector("#sign-in");
 
   //Add login  event listener
-  btnSignin.addEventListener('click', e => {
-    //Get Email and password values
-    const emai = txtEmail.value;
-    const password = txtPassword.value;
-    const auth = firebase.auth;
+  if(btnSignin !== null){
+    btnSignin.addEventListener('click', e => {
+      //Get Email and password values
+      const email = txtEmail.value;
+      const password = txtPassword.value;
+      const auth = firebase.auth();
 
-    const promise = auth.signInWithEmailAndPassword(email, password);
-    promise.catch(e => console.log(e.message));
-  });
+      const promise = auth.signInWithEmailAndPassword(email, password);
+      promise.catch(e => console.log(e.message));
+    });
+  }
+
+  //Add Signup event listener
+
+  // firebase ui
+  var ui = new firebaseui.auth.AuthUI(firebase.auth());
+
+  ui.start('#firebaseui-auth-container', {
+  signInOptions: [
+    firebase.auth.GoogleAuthProvider.PROVIDER_ID
+  ],
+});
+
+// Initialize the FirebaseUI Widget using Firebase.
+var uiConfig = {
+  callbacks: {
+    signInSuccessWithAuthResult: function(authResult, redirectUrl) {
+      // User successfully signed in.
+      // Return type determines whether we continue the redirect automatically
+      // or whether we leave that to developer to handle.
+      return true;
+    },
+    uiShown: function() {
+      // The widget is rendered.
+      // Hide the loader.
+      document.getElementById('loader').style.display = 'none';
+    }
+  },
+  // Will use popup for IDP Providers sign-in flow instead of the default, redirect.
+  signInFlow: 'popup',
+  signInSuccessUrl: '<url-to-redirect-to-on-success>',
+  signInOptions: [
+    // Leave the lines as is for the providers you want to offer your users.
+    firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+  ],
+  // Terms of service url.
+  tosUrl: '<your-tos-url>'
+};
+
+// The start method will wait until the DOM is loaded.
+ui.start('#firebaseui-auth-container', uiConfig);
