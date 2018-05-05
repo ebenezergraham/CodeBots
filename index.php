@@ -73,12 +73,18 @@
                       <a class="btn btn-lg btn-primary btn-block" href="#">Apply Now</a>
                     </div>
                 </div>
+<<<<<<< HEAD:index.php
                 <hr />
 
                 <!-- Hot Product -->
               
 
                 <!-- Portfolio -->
+=======
+
+                <!-- Portfolio Section -->
+                <h2>Portfolio Heading</h2>
+>>>>>>> ebenezer_branch:index.html
 
 
             </div>
