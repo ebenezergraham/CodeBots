@@ -51,7 +51,7 @@
                   </div>
             </nav>
 
-            <!-- Jumbotronc -->
+            <!-- Jumbotron -->
             <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h2 class="display-3">Fluid jumbotron</h2>
@@ -61,23 +61,24 @@
               </div>
             </div>
 
+
             <div class="container-fluid" id="page-content-body">
-                <!-- Hot Product -->
-                <div class="row">
+                <hr />
+                <!-- Advertisement -->
+                <div class="row md-4">
                     <div class="col-md-8">
-                      <a href="#">
-                        <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-                      </a>
+                      <p>This is the job advert section. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
                     </div>
                     <div class="col-md-4">
-                      <h3>Hot Product</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                      <a class="btn btn-primary" href="#">Add to Cart</a>
+                      <a class="btn btn-lg btn-primary btn-block" href="#">Apply Now</a>
                     </div>
                 </div>
+                <hr />
+
+                <!-- Hot Product -->
               
-                <!-- Portfolio Section -->
-                <h2>Portfolio Heading</h2>
+
+                <!-- Portfolio -->
 
 
             </div>
@@ -88,6 +89,14 @@
 
     </div>
     <!-- /#wrapper -->
+
+        <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
