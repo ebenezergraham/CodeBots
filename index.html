@@ -27,7 +27,6 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
 <!--                 <li class="sidebar-brand"><h3>Products Wanted</h3></li> -->
-                <header><h3 class="sidebar-brand" id="brand">Mine Zone</h3></header>
                 <p>This is a list of the products we would like to trade and their priority values. Select what you can offer to earn shopping points and shop</p>
                 <li class="products_wanted_group" href="#"><h4>Agriculture</h4></li>
                 <li class="products_wanted_group" href="#"><h4>Builders</h4></li>
@@ -40,10 +39,24 @@
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
+            <!-- Top navigation -->
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">
+                        <img alt="Mine Zone" src="...">
+                        </a>
+                        <ul class="nav navbar-nav">
+                            <li><a href="#menu-toggle" id="menu-toggle">Products we want</a></li>
+                        </ul>
+                    </div>
+                  </div>
+            </nav>
+
+            <!-- Carousel -->
+            
+
             <div class="container-fluid">
-                <button href="#menu-toggle" id="menu-toggle" type="button" class="btn btn-default btn-sm">
-                  <span class="glyphicon glyphicon-th-list"></span> Products wanted
-                </button>
 
                 <h1>Simple Sidebar</h1>
                 <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
@@ -63,7 +76,7 @@
     <!-- Menu Toggle Script -->
     <script>
     $("#menu-toggle").click(function(e) {
-        // e.preventDefault();
+        e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
     </script>
