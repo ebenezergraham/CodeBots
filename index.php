@@ -76,16 +76,56 @@
                 <hr />
 
                 <!-- Hot Product -->
-              
+                
 
                 <!-- Portfolio -->
+                <hr/ >
+                <div id="mainbox">
+                    <div class="card">
+                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+                      </div>
+                    </div>
 
-
-            </div>
-
-
+                </div>
         </div>
-        <!-- /#page-content-wrapper -->
 
     </div>
     <!-- /#wrapper -->
