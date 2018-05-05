@@ -73,12 +73,7 @@
                       <a class="btn btn-lg btn-primary btn-block" href="#">Apply Now</a>
                     </div>
                 </div>
-                <hr />
-
-                <!-- Hot Product -->
-                
-
-                <!-- Portfolio -->
+              
                 <hr/ >
                 <div id="mainbox">
                     <div class="card">
