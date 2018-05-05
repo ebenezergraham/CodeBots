@@ -42,7 +42,7 @@ body {
 #page-content-wrapper {
   width: 100%;
   position: absolute;
-  padding: 15px;
+/*  padding: 15px;*/
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -63,20 +63,18 @@ body {
 }
 
 .sidebar-nav li {
-  text-indent: 20px;
+/*  text-indent: 20px;*/
   line-height: 40px;
 }
 
-.sidebar-nav li a {
+.products_wanted_group {
+  border-bottom: 1px solid #ccc;
+}
+
+.sidebar-nav li {
   display: block;
   text-decoration: none;
   color: #999999;
-}
-
-.sidebar-nav li a:hover {
-  text-decoration: none;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.2);
 }
 
 .sidebar-nav li a:active, .sidebar-nav li a:focus {
@@ -92,13 +90,13 @@ body {
 
 #brand {
   color: #fff;
-  padding-left: 20px;
   padding-bottom: 30px;
 }
 
 .sidebar-nav p {
   font-size: 16px;
   color:#999999;
+  margin-bottom: 5px;
 }
 
 @media(min-width:768px) {
