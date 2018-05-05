@@ -11,3 +11,12 @@ body {
 #page-content-body {
 	padding: 0px 100px;
 }
+
+.row {
+	padding: 5px 0px;
+}
+
+footer{
+	background-color: #999;
+	padding: 20px 0px;
+}
