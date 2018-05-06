@@ -81,13 +81,6 @@ c
   text-decoration: none;
 }
 
-.sidebar-nav>.sidebar-brand {
-  height: 50px;
-  font-size: 20px;
-  line-height: 60px;
-  color: #fff;
-}
-
 #brand {
   color: #fff;
   padding-bottom: 30px;
@@ -121,4 +114,9 @@ c
     position: relative;
     margin-right: 0;
   }
+}
+
+.product-item {
+  font-size: 14px;
+  color:#999999;
 }
