@@ -59,12 +59,16 @@
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#">
-                        <img alt="Mine Zone" src="...">
+                        <img alt="Mine Zone" src="images/logo.jpg" id="logo">
                         </a>
                         <ul class="nav navbar-nav">
                             <li><a href="#menu-toggle" id="menu-toggle">Products we want</a></li>
                         </ul>
                     </div>
+                        <ul class="nav navbar-nav" id="navbar-right">
+                            <li><a href="#" id="points"><i class="fa fa-shopping-cart"></i> Points <span class="badge">3</span></a></li>
+                            <li><a href="#" id="cart"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+                        </ul>
                   </div>
             </nav>
 
@@ -72,9 +76,9 @@
             <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h2 class="display-3">Fluid jumbotron</h2>
-                <p class="lcead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+                <p class="header-text">This is a modified jumbotron that occupies the entire horizontal space of its parent.
                 This is a modified jumbotron that occupies the entire horizontal space of its parent.
-            This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
               </div>
             </div>
 
@@ -93,16 +97,53 @@
                 <hr />
 
                 <!-- Hot Product -->
+                <hr/ >
+                <div id="mainbox">
+                    <div class="card">
+                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+                      </div>
+                    </div>
 
-
-                <!-- Portfolio -->
-
-
-            </div>
-
-
+                </div>
         </div>
-        <!-- /#page-content-wrapper -->
 
     </div>
     <!-- /#wrapper -->
