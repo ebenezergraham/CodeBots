@@ -63,6 +63,12 @@ flex-wrap: wrap;
 
 .jumbotron {
     background-color: #4a0003;
+    background-image: url("../../images/header.jpeg");
+    background-position: 0% 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.1em;
 }
 
 #navbar-right {
