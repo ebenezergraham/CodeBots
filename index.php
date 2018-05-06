@@ -68,15 +68,23 @@
                   </div>
             </nav>
 
+            <div class="rp">
+                <div style="position: absolute; top: 100px; left: 100px; right: 100px;">
+                    <h2 class="display-3">Fluid jumbotron</h2>
+                    <p class="header-text">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+                    This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                </div>
+            </div>
+
             <!-- Jumbotron -->
-            <div class="jumbotron jumbotron-fluid">
+            <!-- <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h2 class="display-3">Fluid jumbotron</h2>
                 <p class="header-text">This is a modified jumbotron that occupies the entire horizontal space of its parent.
                 This is a modified jumbotron that occupies the entire horizontal space of its parent.
             This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
               </div>
-            </div>
+            </div> -->
 
 
             <div class="container-fluid" id="page-content-body">
@@ -87,13 +95,12 @@
                       <p>This is the job advert section. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
                     </div>
                     <div class="col-md-4">
-                      <a class="btn btn-lg btn-primary btn-block" href="#">Apply Now</a>
+                      <a class="btn btn-lg btn-primary btn-block" href="contact.html">Apply Now</a>
                     </div>
                 </div>
                 <hr />
 
                 <!-- Hot Product -->
-                <hr/ >
                 <div id="mainbox">
                     <div class="card">
                         <img class="card-img-top" src="images/1.jpg" alt="Card image cap">
@@ -163,6 +170,28 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="assets/js/jquery.ripples.js"></script>
+
+<script type="text/javascript">
+    $('.rp').ripples({
+  // Image Url
+  imageUrl: null,
+  // The width and height of the WebGL texture to render to.
+  // The larger this value, the smoother the rendering and the slower the ripples will propagate.
+  resolution: 256,
+  // The size (in pixels) of the drop that results by clicking or moving the mouse over the canvas.
+  dropRadius: 10,
+  // Basically the amount of refraction caused by a ripple.
+  // 0 means there is no refraction.
+  perturbance: 0.01,
+  // Whether mouse clicks and mouse movement triggers the effect.
+  interactive: true,
+  // The crossOrigin attribute to use for the affected image.
+  crossOrigin: ''
+});
+</script>
 
 </body>
 
