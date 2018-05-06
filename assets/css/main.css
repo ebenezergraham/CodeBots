@@ -26,8 +26,8 @@ footer {
 
 .card{
 width: 30%;
-/*border: 0.5px solid gray;*/
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+border: 0.5px solid gray;
+/*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
 transition: 0.3s;
 /*border-top: 10px solid #4a0003;*/
 min-height: 250px;
@@ -59,4 +59,48 @@ flex-wrap: wrap;
 
 .btn:hover {
 	background-color: #5c191c;
+}
+
+.jumbotron {
+    background-color: #4a0003;
+}
+
+#navbar-right {
+    float: right;
+  }
+  ul {
+    
+    li {
+      display: inline;
+      padding-left: 20px;
+      a {
+        color: #777777;
+        text-decoration: none;
+        
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+.badge {
+    background-color: #6394F8;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+#logo {
+	width: 30px;
+	height: 30px;
+	margin:0px;
+	padding: 0px;
 }
