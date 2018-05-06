@@ -14,10 +14,18 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/simple-sidebar.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="sytlesheet" type="text/css" href="assets/css/preloader.css">
 
 </head>
 
 <body>
+      <div class="preloader js-preloader flex-center">
+    <div class="dots">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+    </div>
+    </div>
 
     <div id="wrapper">
 
@@ -42,7 +50,7 @@
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#">
-                        <img alt="Mine Zone" src="...">
+                        <img alt="Mine Zone" src="assets/img/logo.jpg" alt="logo"/>
                         </a>
                         <ul class="nav navbar-nav">
                             <li><a href="#menu-toggle" id="menu-toggle">Products we want</a></li>
@@ -73,7 +81,7 @@
                       <a class="btn btn-lg btn-primary btn-block" href="#">Apply Now</a>
                     </div>
                 </div>
-              
+
                 <hr/ >
                 <div id="mainbox">
                     <div class="card">
@@ -135,8 +143,14 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="assets/js/preloader.min.js"> </script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+    <scrip>$('.js-preloader').preloadinator({
+        scroll:false,
+				minTime: 2000
+			});
+    </script>
     <!-- Menu Toggle Script -->
     <script>
     $("#menu-toggle").click(function(e) {
