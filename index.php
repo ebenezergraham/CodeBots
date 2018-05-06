@@ -77,12 +77,16 @@
                       <a class="btn btn-lg btn-primary btn-block" href="#">Apply Now</a>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <hr />
 
                 <!-- Hot Product -->
 
 
                 <!-- Portfolio -->
+=======
+              
+>>>>>>> bd7def72154e2f263b805b38e0ec84f7ace188f4
                 <hr/ >
                 <div id="mainbox">
                     <div class="card">
