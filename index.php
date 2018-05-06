@@ -14,22 +14,11 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/simple-sidebar.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-<<<<<<< HEAD
-    <link rel="sytlesheet" type="text/css" href="assets/css/preloader.css">
-=======
       <link rel="stylesheet" type="text/css" href="assets/css/preloader.css">
->>>>>>> master
 
 </head>
 
 <body>
-      <div class="preloader js-preloader flex-center">
-    <div class="dots">
-    <div class="dot"></div>
-    <div class="dot"></div>
-    <div class="dot"></div>
-    </div>
-    </div>
 
     <div id="wrapper">
 
@@ -68,11 +57,7 @@
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#">
-<<<<<<< HEAD
-                        <img alt="Mine Zone" src="assets/img/logo.jpg" alt="logo"/>
-=======
                         <img alt="Mine Zone" src="images/logo.jpg" id="logo">
->>>>>>> master
                         </a>
                         <ul class="nav navbar-nav">
                             <li><a href="#menu-toggle" id="menu-toggle">Products we want</a></li>
@@ -114,14 +99,9 @@
                       <a class="btn btn-lg btn-primary btn-block" href="contact.html">Apply Now</a>
                     </div>
                 </div>
-<<<<<<< HEAD
-
-                <hr/ >
-=======
                 <hr />
 
                 <!-- Hot Product -->
->>>>>>> master
                 <div id="mainbox">
                     <div class="card">
                         <img class="card-img-top" src="images/1.jpg" alt="Card image cap">
@@ -193,18 +173,8 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="assets/js/preloader.min.js"> </script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<<<<<<< HEAD
-
-    <scrip>$('.js-preloader').preloadinator({
-        scroll:false,
-				minTime: 2000
-			});
-    </script>
-=======
       <script src="assets/js/cart.js"></script>
->>>>>>> master
     <!-- Menu Toggle Script -->
     <script>
 
