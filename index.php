@@ -24,29 +24,25 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
           <form method="post">
-            <?php
-            echo hello1;
-            include 'php/dbconnection.php';
-            include 'php/functions.php';
-            echo hello2;
-            showProductsWanted();
-            ?>
             <ul class="sidebar-nav">
+
 <!--                 <li class="sidebar-brand"><h3>Products Wanted</h3></li> -->
                 <p>This is a list of the products we would like to trade and their priority values. Select what you can offer to earn shopping points and shop</p>
-                <li class="products_wanted_group" href="#">
-                  <h4>
-                    <?php
-
-                    echo hello.$dbname;
-                ?>
-              </h4></li>
-
-
-                <li class="products_wanted_group" href="#"><h4>Builders</h4></li>
-                <li class="products_wanted_group" href="#"><h4>Healers</h4></li>
-                <li class="products_wanted_group" href="#"><h4>Hunters</h4></li>
-                <li class="products_wanted_group" href="#"><h4>Fisherman</h4></li>
+                <li class="products_wanted_group" >Agriculture</h4></li>
+                  <li><input type="checkbox" name="livestock" value="10"> Livestock & Fisheries<br> </li>
+                  <li><input type="checkbox" name="crops" value="15"> Vegetables and Crops<br> </li>
+                <li class="products_wanted_group" ><h4>Builders</h4></li>
+                <li><input type="checkbox" name="" value="25">Repair Tools <br> </li>
+                <li><input type="checkbox" name="" value="15">Construction Materials  <br></li>
+                <li class="products_wanted_group" ><h4>Healers</h4></li>
+                <li><input type="checkbox" name="firstaid" value="20">First Aid Toolkits <br> </li>
+                <li><input type="checkbox" name="antidote" value="20">Zombie Antidote <br> </li>
+                <li class="products_wanted_group"><h4>Hunters</h4></li>
+                <li><input type="checkbox" name="" value="15">Meat <br> </li>
+                <li><input type="checkbox" name="" value="10">Animal Skin  <br></li>
+                <li class="products_wanted_group" ><h4>Fisherman</h4> </li>
+                <li><input type="checkbox" name="" value="30">Pearls <br> </li>
+                <li><input type="checkbox" name="" value="35">Fish <br> </li>
             </ul>
           </form>
         </div>
@@ -100,44 +96,44 @@
                 <hr/ >
                 <div id="mainbox">
                     <div class="card">
-                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/1.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text"> Get precious stones for with 20 credits</p>
                         <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
                       </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/2.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Get refined metals with 15 credits </p>
                         <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
                       </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/3.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Get quarry with 10 credits</p>
                         <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
                       </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/4.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Get precious metals with 30 credits</p>
                         <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
                       </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/5.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Get oil with 35 credits</p>
                         <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
                       </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top" src="images/barrel-cash-coins.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="images/6.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Get gas with 25 credits</p>
                         <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
                       </div>
                     </div>
