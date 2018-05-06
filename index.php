@@ -24,25 +24,10 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
           <form method="post">
-            <?php
-            echo hello1;
-            include 'php/dbconnection.php';
-            include 'php/functions.php';
-            echo hello2;
-            showProductsWanted();
-            ?>
             <ul class="sidebar-nav">
 <!--                 <li class="sidebar-brand"><h3>Products Wanted</h3></li> -->
                 <p>This is a list of the products we would like to trade and their priority values. Select what you can offer to earn shopping points and shop</p>
-                <li class="products_wanted_group" href="#">
-                  <h4>
-                    <?php
-
-                    echo hello.$dbname;
-                ?>
-              </h4></li>
-
-
+                <li class="products_wanted_group" href="#">Agriculture</h4></li>
                 <li class="products_wanted_group" href="#"><h4>Builders</h4></li>
                 <li class="products_wanted_group" href="#"><h4>Healers</h4></li>
                 <li class="products_wanted_group" href="#"><h4>Hunters</h4></li>
