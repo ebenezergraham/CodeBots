@@ -30,6 +30,7 @@
 <!--                 <li class="sidebar-brand"><h3>Products Wanted</h3></li> -->
                 <p>This is a list of the products we would like to trade and their priority values. Select what you can offer to earn shopping points and shop</p>
                 <li class="products_wanted_group" >Agriculture</h4></li>
+
                   <li class="product-item"><input type="checkbox" name="livestock" value="10"> Livestock & Fisheries<br> </li>
                   <li class="product-item"><input type="checkbox" name="crops" value="15"> Vegetables and Crops<br> </li>
                 <li class="products_wanted_group" ><h4>Builders</h4></li>
@@ -105,43 +106,54 @@
                     <div class="card">
                         <img class="card-img-top" src="images/1.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text"> Get precious stones for <strong>20 credits</strong></p>
-                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+
+                        <p class="card-text"> Get precious stones for with 20 credits</p>
+                        <button type="button" class="btn btn-primary" value="20" ><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+
                       </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="images/2.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text">Get refined metals for <strong>15 credits</strong></p>
-                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+
+                        <p class="card-text">Get refined metals with 15 credits </p>
+                        <button type="button" class="btn btn-primary" value="15" ><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+
                       </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="images/3.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text">Get quarry for <strong>10 credits</strong></p>
-                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+
+                        <p class="card-text">Get quarry with 10 credits</p>
+                        <button type="button" class="btn btn-primary" value="10" ><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+
                       </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="images/4.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text">Get precious metals for <strong>30 credits</strong></p>
-                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+
+                        <p class="card-text">Get precious metals with 30 credits</p>
+                        <button type="button" class="btn btn-primary" value="30"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
                       </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="images/5.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text">Get oil for <strong>35 credits</strong>s</p>
-                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+
+                        <p class="card-text">Get oil with 35 credits</p>
+                        <button type="button" class="btn btn-primary" value="35"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+
                       </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top" src="images/6.jpg" alt="Card image cap">
                       <div class="card-body">
-                        <p class="card-text">Get gas for <strong>25credits</strong></p>
-                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+
+                        <p class="card-text">Get gas with 25 credits</p>
+                        <button type="button" class="btn btn-primary" value="25"><span class="glyphicon glyphicon-shopping-cart"></span> Add to cart</button>
+
                       </div>
                     </div>
 
@@ -162,9 +174,10 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+      <script src="assets/js/cart.js"></script>
     <!-- Menu Toggle Script -->
     <script>
+
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
