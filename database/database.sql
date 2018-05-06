@@ -1,6 +1,4 @@
-DROP database minezon;
-CREATE database minezon;
-USE minezon;
+USE maurice5;
 
 DROP TABLE IF EXISTS products_wanted;
 CREATE TABLE products_wanted (
@@ -55,4 +53,3 @@ INSERT INTO product_categories VALUES ('3','Oil','20','4','images/test.jpg');
 INSERT INTO product_categories VALUES ('4','Metal Ores','20','4','images/test.jpg');
 INSERT INTO product_categories VALUES ('5','Quarry','20','4','images/test.jpg');
 INSERT INTO product_categories VALUES ('6','Metallury','3','4','images/test.jpg');
-
