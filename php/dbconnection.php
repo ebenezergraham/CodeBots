@@ -5,9 +5,9 @@ $socket="";
 $user="root";
 $password="mysql";
 $dbname="minezon";
-$product_id;
 $con = new mysqli($host, $user, $password, $dbname, $port, $socket)
 	or die ('Could not connect to the database server' . mysqli_connect_error());
+
 $getProduct = "SELECT * FROM product_categories";
 $setProduct = "INSERT INTO product_categories VALUES ('1','Stones','20','4','images/test.jpg')";
 // get products
