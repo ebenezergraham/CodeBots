@@ -32,17 +32,17 @@
                   <li><input type="checkbox" name="livestock" value="10"> Livestock & Fisheries<br> </li>
                   <li><input type="checkbox" name="crops" value="15"> Vegetables and Crops<br> </li>
                 <li class="products_wanted_group" ><h4>Builders</h4></li>
-                <li><input type="checkbox" name="" value="25">Repair Tools <br> </li>
-                <li><input type="checkbox" name="" value="15">Construction Materials  <br></li>
+                <li><input type="checkbox" name="tools" value="25">Repair Tools <br> </li>
+                <li><input type="checkbox" name="materials" value="15">Construction Materials  <br></li>
                 <li class="products_wanted_group" ><h4>Healers</h4></li>
                 <li><input type="checkbox" name="firstaid" value="20">First Aid Toolkits <br> </li>
                 <li><input type="checkbox" name="antidote" value="20">Zombie Antidote <br> </li>
                 <li class="products_wanted_group"><h4>Hunters</h4></li>
-                <li><input type="checkbox" name="" value="15">Meat <br> </li>
-                <li><input type="checkbox" name="" value="10">Animal Skin  <br></li>
+                <li><input type="checkbox" name="meat" value="15">Meat <br> </li>
+                <li><input type="checkbox" name="skin" value="10">Animal Skin  <br></li>
                 <li class="products_wanted_group" ><h4>Fisherman</h4> </li>
-                <li><input type="checkbox" name="" value="30">Pearls <br> </li>
-                <li><input type="checkbox" name="" value="35">Fish <br> </li>
+                <li><input type="checkbox" name="pearls" value="30">Pearls <br> </li>
+                <li><input type="checkbox" name="fish" value="35">Fish <br> </li>
             </ul>
           </form>
         </div>
