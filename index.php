@@ -28,6 +28,7 @@
 
 <!--                 <li class="sidebar-brand"><h3>Products Wanted</h3></li> -->
                 <p>This is a list of the products we would like to trade and their priority values. Select what you can offer to earn shopping points and shop</p>
+<<<<<<< HEAD
                 <li class="products_wanted_group" >Agriculture</h4></li>
                   <li><input type="checkbox" name="livestock" value="10"> Livestock & Fisheries<br> </li>
                   <li><input type="checkbox" name="crops" value="15"> Vegetables and Crops<br> </li>
@@ -43,6 +44,13 @@
                 <li class="products_wanted_group" ><h4>Fisherman</h4> </li>
                 <li><input type="checkbox" name="pearls" value="30">Pearls <br> </li>
                 <li><input type="checkbox" name="fish" value="35">Fish <br> </li>
+=======
+                <li class="products_wanted_group" href="#">Agriculture</h4></li>
+                <li class="products_wanted_group" href="#"><h4>Builders</h4></li>
+                <li class="products_wanted_group" href="#"><h4>Healers</h4></li>
+                <li class="products_wanted_group" href="#"><h4>Hunters</h4></li>
+                <li class="products_wanted_group" href="#"><h4>Fisherman</h4></li>
+>>>>>>> master
             </ul>
           </form>
         </div>
