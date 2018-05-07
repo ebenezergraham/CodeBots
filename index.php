@@ -8,18 +8,36 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-    <title>Mine Zone</title>
+    <script src="/assets/js/preloader.js"></script>
+    <title>Minezone</title>
 
     <!-- Custom styles for this template -->
     <link href="assets/css/simple-sidebar.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-      <link rel="stylesheet" type="text/css" href="assets/css/preloader.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/preloader.css">
 
 </head>
 
 <body>
-
+  <div class="loader">
+    <div class="loader-inner">
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+    </div>
+  </div>
     <div id="wrapper">
 
         <!-- Sidebar -->
@@ -174,71 +192,13 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="assets/js/cart.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-
+    <script src="assets/js/cart.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="assets/js/jquery.ripples.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/preloader.min.js"></script>
 
-<script type="text/javascript">
-    $('.rp').ripples({
-  // Image Url
-  imageUrl: null,
-  // The width and height of the WebGL texture to render to.
-  // The larger this value, the smoother the rendering and the slower the ripples will propagate.
-  resolution: 256,
-  // The size (in pixels) of the drop that results by clicking or moving the mouse over the canvas.
-  dropRadius: 10,
-  // Basically the amount of refraction caused by a ripple.
-  // 0 means there is no refraction.
-  perturbance: 0.01,
-  // Whether mouse clicks and mouse movement triggers the effect.
-  interactive: true,
-  // The crossOrigin attribute to use for the affected image.
-  crossOrigin: ''
-});
-</script>
 
-<script>
-$(document).ready(function() {
-//Preloader
-$(window).on("load", function() {
-preloaderFadeOutTime = 5000;
-function hidePreloader() {
-var preloader = $('.loader');
-preloader.fadeOut(preloaderFadeOutTime);
-}
-hidePreloader();
-});
-});
-</script>
-
-<div class="loader">
-  <div class="loader-inner">
-    <div class="loader-line-wrap">
-      <div class="loader-line"></div>
-    </div>
-    <div class="loader-line-wrap">
-      <div class="loader-line"></div>
-    </div>
-    <div class="loader-line-wrap">
-      <div class="loader-line"></div>
-    </div>
-    <div class="loader-line-wrap">
-      <div class="loader-line"></div>
-    </div>
-    <div class="loader-line-wrap">
-      <div class="loader-line"></div>
-    </div>
-  </div>
-</div>
 
 </body>
 
