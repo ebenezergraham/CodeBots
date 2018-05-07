@@ -3,6 +3,15 @@ body {
     padding-top: 50px;
 }
 
+<<<<<<< HEAD
+
+.jumbotron {
+	height: 450px;
+	align-items: center;
+}
+
+=======
+>>>>>>> master
 #page-content-body {
 	padding: 0px 100px;
 }
